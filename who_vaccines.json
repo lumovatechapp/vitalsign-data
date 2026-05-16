@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-16-v1",
+  "version": "2026-05-16-prod",
   "schema_version": 4,
   "last_updated": "2026-05-16",
   "note": "Bump version string whenever vaccines are added, removed or changed. App fetches on manual refresh only.",
@@ -37,15 +37,6 @@
           "status": "active"
         },
         {
-          "id": "pk_test1_birth",
-          "name": "Test-1",
-          "age_months": 0,
-          "age_label": "At Birth",
-          "duration_label": "First Visit",
-          "description": "Test vaccine at birth",
-          "status": "active"
-        },
-        {
           "id": "pk_opv1",
           "name": "OPV-I",
           "age_months": 2,
@@ -79,15 +70,6 @@
           "age_label": "6 weeks",
           "duration_label": "Second Visit",
           "description": "Pneumococcal (PCV10) dose 1",
-          "status": "active"
-        },
-        {
-          "id": "pk_test1_6w",
-          "name": "Test-1",
-          "age_months": 2,
-          "age_label": "6 weeks",
-          "duration_label": "Second Visit",
-          "description": "Test vaccine at 6 weeks",
           "status": "active"
         },
         {
@@ -163,33 +145,6 @@
           "status": "active"
         },
         {
-          "id": "pk_test1_15w",
-          "name": "Test-1",
-          "age_months": 4,
-          "age_label": "15 weeks",
-          "duration_label": "Test Visit",
-          "description": "Test vaccine 1 — 15 weeks schedule",
-          "status": "active"
-        },
-        {
-          "id": "pk_test2_15w",
-          "name": "Test-2",
-          "age_months": 4,
-          "age_label": "15 weeks",
-          "duration_label": "Test Visit",
-          "description": "Test vaccine 2 — 15 weeks schedule",
-          "status": "active"
-        },
-        {
-          "id": "pk_test3_15w",
-          "name": "Test-3",
-          "age_months": 4,
-          "age_label": "15 weeks",
-          "duration_label": "Test Visit",
-          "description": "Test vaccine 3 — 15 weeks schedule",
-          "status": "active"
-        },
-        {
           "id": "pk_mr1",
           "name": "MR-I",
           "age_months": 9,
@@ -214,42 +169,6 @@
           "age_label": "9 months",
           "duration_label": "Fifth Visit",
           "description": "Typhoid Conjugate Vaccine",
-          "status": "active"
-        },
-        {
-          "id": "pk_test1_9m",
-          "name": "Test-1",
-          "age_months": 9,
-          "age_label": "9 months",
-          "duration_label": "Fifth Visit",
-          "description": "Test vaccine at 9 months",
-          "status": "active"
-        },
-        {
-          "id": "pk_test1_12m",
-          "name": "Test-1",
-          "age_months": 12,
-          "age_label": "12 months",
-          "duration_label": "Test Visit B",
-          "description": "Test vaccine 1 — 12 months schedule",
-          "status": "active"
-        },
-        {
-          "id": "pk_test2_12m",
-          "name": "Test-2",
-          "age_months": 12,
-          "age_label": "12 months",
-          "duration_label": "Test Visit B",
-          "description": "Test vaccine 2 — 12 months schedule",
-          "status": "active"
-        },
-        {
-          "id": "pk_test3_12m",
-          "name": "Test-3",
-          "age_months": 12,
-          "age_label": "12 months",
-          "duration_label": "Test Visit B",
-          "description": "Test vaccine 3 — 12 months schedule",
           "status": "active"
         },
         {
@@ -279,7 +198,7 @@
         },
         {
           "id": "who_hepb_birth_002",
-          "name": "Hepatitis B (Birth)",
+          "name": "Hepatitis B",
           "age_months": 0,
           "age_label": "Birth",
           "duration_label": "1st Visit",
