@@ -1,5 +1,5 @@
 {
-  "version": "2026-05-16-live-3",
+  "version": "2026-05-16-v6",
   "schema_version": 4,
   "last_updated": "2026-05-16",
   "note": "Bump version string whenever vaccines are added, removed or changed. App fetches on manual refresh only.",
@@ -14,7 +14,7 @@
           "name": "BCG",
           "age_months": 0,
           "age_label": "At Birth",
-          "status": "active"
+          "status": "removed"
         },
         {
           "id": "pk_opv0",
@@ -140,6 +140,69 @@
           "name": "MR-II",
           "age_months": 15,
           "age_label": "15 months",
+          "status": "active"
+        },
+        {
+          "id": "pk_maryam_birth",
+          "name": "Maryam",
+          "age_months": 0,
+          "age_label": "At Birth",
+          "status": "active"
+        },
+        {
+          "id": "pk_ali_10w",
+          "name": "Ali",
+          "age_months": 3,
+          "age_label": "10 weeks",
+          "status": "active"
+        },
+        {
+          "id": "pk_bilal_12w",
+          "name": "Bilal",
+          "age_months": 3,
+          "age_label": "12 weeks",
+          "status": "active"
+        },
+        {
+          "id": "pk_taimoor_12w",
+          "name": "Taimoor",
+          "age_months": 3,
+          "age_label": "12 weeks",
+          "status": "active"
+        },
+        {
+          "id": "pk_ammar_12w",
+          "name": "Ammar",
+          "age_months": 3,
+          "age_label": "12 weeks",
+          "status": "active"
+        },
+        {
+          "id": "pk_asma_9m",
+          "name": "Asma",
+          "age_months": 9,
+          "age_label": "9 months",
+          "status": "active"
+        },
+        {
+          "id": "pk_taimoor_12m",
+          "name": "Taimoor",
+          "age_months": 12,
+          "age_label": "12 months",
+          "status": "active"
+        },
+        {
+          "id": "pk_ammar_12m",
+          "name": "Ammar",
+          "age_months": 12,
+          "age_label": "12 months",
+          "status": "active"
+        },
+        {
+          "id": "pk_musa_12m",
+          "name": "Musa",
+          "age_months": 12,
+          "age_label": "12 months",
           "status": "active"
         }
       ]
